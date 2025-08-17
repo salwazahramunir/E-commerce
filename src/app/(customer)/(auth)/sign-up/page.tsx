@@ -3,7 +3,8 @@
 import { ActionResult } from "@/types";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useActionState } from "react";
+import React from "react";
+import { useActionState } from "react";
 import { useFormStatus } from "react-dom";
 import { SignUp } from "../lib/actions";
 import { AlertCircle } from "lucide-react";

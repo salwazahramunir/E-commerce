@@ -2,7 +2,8 @@
 
 import { ActionResult } from "@/types";
 import Image from "next/image";
-import React, { useActionState } from "react";
+import React from "react";
+import { useActionState } from "react";
 import { useFormStatus } from "react-dom";
 import { AlertCircle } from "lucide-react";
 import Link from "next/link";
